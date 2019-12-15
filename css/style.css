@@ -1,22 +1,25 @@
-body,html{
+body,
+html {
     font-size: 14px;
     font-family: 'Cairo', sans-serif;
     direction: rtl;
     background: #eee;
     height: 100%;
 }
-.bg{
-    background-color:#1b8fb9 ;
+
+.bg {
+    background-color: #1b8fb9;
     color: #FFF;
     text-align: right;
-    border:1px solid #1b8fb9; 
+    border: 1px solid #1b8fb9;
 }
-.bg-dark{
+
+.bg-dark {
     color: #FFF;
     text-align: right;
 }
 
-.check-success{
+.check-success {
     float: left;
     position: absolute;
     left: 7px;
@@ -26,14 +29,16 @@ body,html{
     border-radius: 5px;
     padding: 5px 20px;
 }
-.nav-link{
+
+.nav-link {
     color: #FFF !important;
 }
-.wrap{
+
+.wrap {
     min-height: 100%;
 }
 
-.info-profile{
+.info-profile {
     background: #ffe14d;
     padding: 4px 10px;
     border-radius: 7px;
@@ -44,14 +49,14 @@ body,html{
     font-size: 12px;
 }
 
-.photoCover{
+.photoCover {
     background: url(https://thulium.co/wp-content/uploads/2018/09/blue-poly1.png);
     background-size: cover;
     height: auto;
     text-align: center;
 }
 
-.photoCover img{
+.photoCover img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -60,12 +65,12 @@ body,html{
     border: 10px solid white;
 }
 
-.orderStatus{
+.orderStatus {
     border-right: 5px solid;
     border-radius: 0;
 }
 
-.addOrder{
+.addOrder {
     position: fixed;
     bottom: 10px;
     left: 10px;
@@ -74,3 +79,6 @@ body,html{
     color: #28a745;
 }
 
+.MerchantAnswers div {
+    padding-left: 0;
+}
